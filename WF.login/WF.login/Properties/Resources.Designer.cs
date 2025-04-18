@@ -63,6 +63,66 @@ namespace WF.login.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1531905_celtic_cemetery_cross_death_grave_icon {
+            get {
+                object obj = ResourceManager.GetObject("1531905_celtic_cemetery_cross_death_grave_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1531905_celtic_cemetery_cross_death_grave_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("1531905_celtic_cemetery_cross_death_grave_icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5715201_danger_death_head_pirate_skull_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("5715201_danger_death_head_pirate_skull_icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _5715210_bone_cross_danger_death_flag_icon {
+            get {
+                object obj = ResourceManager.GetObject("5715210_bone_cross_danger_death_flag_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6022673_coronavirus_covid_death_disease_epidemic_icon {
+            get {
+                object obj = ResourceManager.GetObject("6022673_coronavirus_covid_death_disease_epidemic_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8468028_dead_death_fear_grim_horror_icon {
+            get {
+                object obj = ResourceManager.GetObject("8468028_dead_death_fear_grim_horror_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap baixados {
             get {
                 object obj = ResourceManager.GetObject("baixados", resourceCulture);
@@ -116,6 +176,16 @@ namespace WF.login.Properties {
         internal static System.Drawing.Bitmap OIP__3_ {
             get {
                 object obj = ResourceManager.GetObject("OIP (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap R__1_ {
+            get {
+                object obj = ResourceManager.GetObject("R (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

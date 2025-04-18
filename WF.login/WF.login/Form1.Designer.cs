@@ -162,6 +162,7 @@
             Controls.Add(panel1);
             ForeColor = SystemColors.GrayText;
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Opacity = 0.85D;
             Text = "Form1";

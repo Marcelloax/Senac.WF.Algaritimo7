@@ -14,6 +14,9 @@ namespace WF.login
 
         private void Enter_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            var formPrincipal = new FormPrincipal();
+            formPrincipal.Show();
 
         }
 
