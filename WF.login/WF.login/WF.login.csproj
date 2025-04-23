@@ -9,6 +9,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="FormPrincipal - Cópia.cs" />
+    <Compile Remove="FormPrincipal - Cópia.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="FormPrincipal - Cópia.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="FormFrete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

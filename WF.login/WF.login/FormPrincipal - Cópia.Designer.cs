@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
             panel1 = new Panel();
-            button3 = new Button();
-            button2 = new Button();
-            btnProdutos = new Button();
+            button1 = new Button();
             panel2 = new Panel();
             panel3 = new Panel();
             panel4 = new Panel();
-            label1 = new Label();
+            button2 = new Button();
+            button3 = new Button();
             pictureBox1 = new PictureBox();
+            label1 = new Label();
             label2 = new Label();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
@@ -54,69 +54,30 @@
             panel1.BackColor = SystemColors.ActiveCaptionText;
             panel1.Controls.Add(button3);
             panel1.Controls.Add(button2);
-            panel1.Controls.Add(btnProdutos);
+            panel1.Controls.Add(button1);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(249, 450);
             panel1.TabIndex = 0;
             // 
-            // button3
+            // button1
             // 
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatAppearance.MouseDownBackColor = Color.White;
-            button3.FlatAppearance.MouseOverBackColor = Color.Black;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Century Gothic", 13F);
-            button3.ForeColor = SystemColors.ButtonHighlight;
-            button3.Image = (Image)resources.GetObject("button3.Image");
-            button3.ImageAlign = ContentAlignment.MiddleLeft;
-            button3.Location = new Point(12, 293);
-            button3.Name = "button3";
-            button3.Size = new Size(224, 145);
-            button3.TabIndex = 0;
-            button3.Text = "FRETE";
-            button3.TextAlign = ContentAlignment.MiddleRight;
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
-            // 
-            // button2
-            // 
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatAppearance.MouseDownBackColor = Color.White;
-            button2.FlatAppearance.MouseOverBackColor = Color.Black;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Century Gothic", 13F);
-            button2.ForeColor = SystemColors.ButtonHighlight;
-            button2.Image = (Image)resources.GetObject("button2.Image");
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(12, 153);
-            button2.Name = "button2";
-            button2.Size = new Size(224, 145);
-            button2.TabIndex = 0;
-            button2.Text = "PAGTO";
-            button2.TextAlign = ContentAlignment.MiddleRight;
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
-            // 
-            // btnProdutos
-            // 
-            btnProdutos.FlatAppearance.BorderSize = 0;
-            btnProdutos.FlatAppearance.MouseDownBackColor = Color.White;
-            btnProdutos.FlatAppearance.MouseOverBackColor = Color.Black;
-            btnProdutos.FlatStyle = FlatStyle.Flat;
-            btnProdutos.Font = new Font("Century Gothic", 13F);
-            btnProdutos.ForeColor = SystemColors.ButtonHighlight;
-            btnProdutos.Image = (Image)resources.GetObject("btnProdutos.Image");
-            btnProdutos.ImageAlign = ContentAlignment.MiddleLeft;
-            btnProdutos.Location = new Point(12, 12);
-            btnProdutos.Name = "btnProdutos";
-            btnProdutos.Size = new Size(224, 145);
-            btnProdutos.TabIndex = 0;
-            btnProdutos.Text = "PRODU";
-            btnProdutos.TextAlign = ContentAlignment.MiddleRight;
-            btnProdutos.UseVisualStyleBackColor = true;
-            btnProdutos.Click += button1_Click;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatAppearance.MouseDownBackColor = Color.White;
+            button1.FlatAppearance.MouseOverBackColor = Color.Black;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Century Gothic", 13F);
+            button1.ForeColor = SystemColors.ButtonHighlight;
+            button1.Image = (Image)resources.GetObject("button1.Image");
+            button1.ImageAlign = ContentAlignment.MiddleLeft;
+            button1.Location = new Point(12, 12);
+            button1.Name = "button1";
+            button1.Size = new Size(224, 145);
+            button1.TabIndex = 0;
+            button1.Text = "PRODU";
+            button1.TextAlign = ContentAlignment.MiddleRight;
+            button1.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
@@ -145,15 +106,41 @@
             panel4.Size = new Size(141, 144);
             panel4.TabIndex = 2;
             // 
-            // label1
+            // button2
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(17, 107);
-            label1.Name = "label1";
-            label1.Size = new Size(105, 25);
-            label1.TabIndex = 1;
-            label1.Text = "Senac Food";
-            label1.Click += label1_Click;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatAppearance.MouseDownBackColor = Color.White;
+            button2.FlatAppearance.MouseOverBackColor = Color.Black;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Century Gothic", 13F);
+            button2.ForeColor = SystemColors.ButtonHighlight;
+            button2.Image = (Image)resources.GetObject("button2.Image");
+            button2.ImageAlign = ContentAlignment.MiddleLeft;
+            button2.Location = new Point(12, 153);
+            button2.Name = "button2";
+            button2.Size = new Size(224, 145);
+            button2.TabIndex = 0;
+            button2.Text = "PAGTO";
+            button2.TextAlign = ContentAlignment.MiddleRight;
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatAppearance.MouseDownBackColor = Color.White;
+            button3.FlatAppearance.MouseOverBackColor = Color.Black;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Century Gothic", 13F);
+            button3.ForeColor = SystemColors.ButtonHighlight;
+            button3.Image = (Image)resources.GetObject("button3.Image");
+            button3.ImageAlign = ContentAlignment.MiddleLeft;
+            button3.Location = new Point(12, 293);
+            button3.Name = "button3";
+            button3.Size = new Size(224, 145);
+            button3.TabIndex = 0;
+            button3.Text = "FRETE";
+            button3.TextAlign = ContentAlignment.MiddleRight;
+            button3.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -164,6 +151,16 @@
             pictureBox1.Size = new Size(81, 90);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(17, 107);
+            label1.Name = "label1";
+            label1.Size = new Size(105, 25);
+            label1.TabIndex = 1;
+            label1.Text = "Senac Food";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -233,7 +230,7 @@
         private Panel panel1;
         private Panel panel2;
         private Panel panel3;
-        private Button btnProdutos;
+        private Button button1;
         private Panel panel4;
         private Button button3;
         private Button button2;

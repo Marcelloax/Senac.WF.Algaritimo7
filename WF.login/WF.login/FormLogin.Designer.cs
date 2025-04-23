@@ -1,6 +1,6 @@
 ﻿namespace WF.login
 {
-    partial class Form1
+    partial class FormLogin
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
             textBox1 = new TextBox();
@@ -164,7 +164,6 @@
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
-            Opacity = 0.85D;
             Text = "Form1";
             Load += Form1_Load;
             panel1.ResumeLayout(false);

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WF.login
 {
-    public partial class FormPrincipal : Form
+    public partial class FormFrete : Form
     {
-        public FormPrincipal()
+        public FormFrete()
         {
             InitializeComponent();
         }
@@ -30,24 +30,6 @@ namespace WF.login
         private void label2_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            new FormProdutos().Show();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            new FormPagamento().Show();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            new FormFrete().Show();
         }
     }
 }
